@@ -15,7 +15,7 @@ export default function Home() {
         />
 
         <div className="lg:top-[3.3vh] top-[7.6vh] relative w-full">
-            <motion.div className="rounded-full outline-primary outline-none lg:w-[13vw] lg:h-[13vw] relative lg:left-[43.5vw] opacity-0 w-[39vw] h-[39vw] left-[30.5vw]" animate={{ opacity: 100 }} transition={{ duration: 10 }}>
+            <motion.div className="rounded-full lg:outline-primary lg:outline-none lg:w-[13vw] lg:h-[13vw] relative lg:left-[43.5vw] opacity-0 w-[39vw] h-[39vw] left-[30.5vw]" animate={{ opacity: 100 }} transition={{ duration: 10 }}>
                 <Image src="https://cdn.discordapp.com/avatars/650832778505486336/70e116c00b33eaa913da00bd95e1b2fe.png?size=1024" layout="fill" className="rounded-full"/>
             </motion.div>
 
